@@ -2,9 +2,10 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=266156753414652&autoLogAppEvents=1" nonce="tMuC5GPd"></script>
 </head>
 <body>
-<div id="menu">
+<div id="menu" class="menu-4">
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
 <li><a href="#playlist">My Playlist</a></li>
@@ -63,70 +64,25 @@ my photos
 <section id="playlist" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 my playlist
 <br/>
-<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agsNj-6GhPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 </section>
 
 <section id="like" class="section">
 <br/>
+<h1>give me a like</h1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+<div class="fb-like" data-href="https://www.facebook.com/grandmotherskitchen" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
 </section>
 
 <section id="qrcoder" class="section">
 <br/>
+
+<h1>scan my code</h1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+<img src="Photos/QR.PNG"/>
 </section>
 
 <section id="spa" class="section">
@@ -154,24 +110,16 @@ ans
 
 <section id="contact" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 contact me
 <br/>
-<br/>
+<form action="mailto:dvir.rainisch@gmail.com" method="post" enctype="text/plain">
+  <input type="text" name="First_Name" required placeholder="First Name"><br>
+  <input type="text" name="Last_Name" required placeholder="Last Name"><br>
+  <input type="text" name="Mail" required placeholder="Email"><br>
+  <input type="text" name="Message" required placeholder="Write your message here"><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value= "Reset">
+</form>
 <br/>
 </section>
 
